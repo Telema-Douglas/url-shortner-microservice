@@ -1,6 +1,6 @@
 # URL Shortner Microservice
 
-This is a microservice which shortens a valid url and also redirects to the long url when supplied with the shorted url
+This is a microservice which shortens a valid url and also redirects to the long url when supplied with the short url
 
 ## Installation
 
