@@ -1,7 +1,7 @@
 const mongoose = require('mongoose')
 require('dotenv').config();
 
-const numberOfConnectionTries = 0;
+let numberOfConnectionTries = 0;
 const numberOfSecondsBeforeRetry = 5;
 const maximumNumberOfConnectionTrials = 10;
 const databaseUrl = process.env.MONGODB_DATABASE_URI;
